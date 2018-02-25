@@ -13,7 +13,7 @@ class OpenCVGenericRecognition:
 
     THRESHOLD_CONFIDENCE = 70
 
-    def __init__(self, trainset_path, reco_algo = ALGO_LBPH):
+    def __init__(self, trainset_path, reco_algo = "ALGO_EIGEN1"):
         """
         """
         logging.info("Trainset: {0}".format(trainset_path))
